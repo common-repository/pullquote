@@ -1,0 +1,60 @@
+
+.pulled-right {
+  display: block;
+  float: right;
+  padding: 0 0 0 10px;
+  width: 200px;
+  font-size: 18px;
+  text-align: left;
+  color: #A1A1A1;
+  border-left: 3px solid #CCC;
+  line-height: 120%;
+}
+.pulled-left {
+  display: block;
+  float: left;
+  padding: 0 10px 0 0;
+  width: 200px;
+  font-size: 18px;
+  text-align: left;
+  color: #A1A1A1;
+  border-right: 3px solid #CCC;
+  line-height: 120%;
+}
+
+.pullquote__social {
+  clear: both;
+  margin-top:10px;
+  border-top: 1px solid #f5f5f5;  
+  padding-top: 10px;
+}
+
+.pullquote__social--twitter,
+.pullquote__social--facebook {
+  display:block;
+  cursor: pointer;
+  width:16px;
+  height:16px;
+  opacity: .6;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.pullquote__social--twitter:hover,
+.pullquote__social--facebook:hover {
+  opacity: 1;
+}
+
+.pullquote__social--twitter:active,
+.pullquote__social--facebook:active {
+  opacity: .5;
+}
+
+.pullquote__social--twitter {
+  background: url(../images/twitter.png) 50% 50% no-repeat !important;
+}
+
+.pullquote__social--facebook {
+  background: url(../images/facebook.png) 50% 50% no-repeat !important;
+}
